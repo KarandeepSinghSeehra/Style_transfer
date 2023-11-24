@@ -2,6 +2,13 @@
 
 # Neural Style Transfer Model for Artist's Style
 
+
+## Method 1:
+
+In first method VGG19 trained model is used to compute content loss, styled loss, and gram matrix from the input content image, styled image is selected, further the combined loss is optimised for 50 itertions to produce a combined image.
+
+## Method 2:
+
 ## Introduction
 
 Neural Style Transfer (NST) is an innovative technique that combines the content of one image with the artistic style of another, resulting in visually striking and unique artworks. This project focuses on building a model capable of learning an artist's style using a dataset of artistic images.
